@@ -1,0 +1,23 @@
+# 🚀 My Learning Journey: C++ & Web Development
+
+Welcome to my practice repository! This project documents my progress and learning in **C++ programming** and **Web Development**.
+
+---
+
+## 🧠 C++ Concepts Covered (so far)
+
+- ✅ Character input and classification (uppercase/lowercase)
+- ✅ Conditional logic using `if-else`
+- ✅ Nested loops and pattern printing
+- ✅ Debugging logic with `while` loops and counters
+
+Example topics:
+```cpp
+// Check if a character is uppercase or lowercase
+if(c >= 'a' && c <= 'z') {
+    cout << 0;
+} else if(c >= 'A' && c <= 'Z') {
+    cout << 1;
+} else {
+    cout << -1;
+}
