@@ -1,7 +1,7 @@
 
 #include<iostream>
 using namespace std;
-/*
+/* Question 5
 Pattern
 N = 5
   *
@@ -9,7 +9,7 @@ N = 5
 *****
  ***
   *
-*/
+
 
 void printPatt(int n){
     int i=1;
@@ -36,10 +36,11 @@ void printPatt(int n){
         cout<<"\n";
         i = i + 1;
     }
-}
+}*/
 
 
 int main(){
+	printPatt(5);
     /*
     Question 1 Debug the code. It is trying to print the given pattern.
     Pattern
@@ -146,6 +147,6 @@ int main(){
         i = i + 1;
     }*/
    
-     printPatt(5);
+   
     return 0;
 }
