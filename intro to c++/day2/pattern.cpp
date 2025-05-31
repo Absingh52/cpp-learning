@@ -1,14 +1,14 @@
 
 #include<iostream>
 using namespace std;
-/* Question 5
-Pattern
-N = 5
-  *
- ***
-*****
- ***
-  *
+// Question 5
+// Pattern
+// N = 5
+//   *
+//  ***
+// *****
+//  ***
+//   *
 
 
 void printPatt(int n){
@@ -36,39 +36,39 @@ void printPatt(int n){
         cout<<"\n";
         i = i + 1;
     }
-}*/
+}
 
 
 int main(){
 	printPatt(5);
-    /*
-    Question 1 Debug the code. It is trying to print the given pattern.
-    Pattern
-    N = 4
-    1
-    22
-    333
-    4444
-*/
-  /*int i,j,n;
+    
+    // Question 1 Debug the code. It is trying to print the given pattern.
+    // Pattern
+    // N = 4
+    // 1
+    // 22
+    // 333
+    // 4444
+
+  int i,j,n;
     cin>>n;
     for(i=1;i<=n;i++){
         for(j=1;j<=i;j++){
 	        cout<<i;
         }
     cout<<endl;
-    }*/
+    }
 
-    /*
-        Question 2 Debug the code. It is trying to print the given pattern.
-        Pattern
-        N = 4
-        1
-        21
-        321
-        4321
-*/
-/*  int i,j,n;
+    
+        // Question 2 Debug the code. It is trying to print the given pattern.
+        // Pattern
+        // N = 4
+        // 1
+        // 21
+        // 321
+        // 4321
+
+  int i,j,n;
     cin>>n;
     for(i=1;i<=n;i++){
        int p=i;
@@ -79,18 +79,18 @@ int main(){
         cout<<endl;
         
     }
-    */
+    
 
-    /*
-    Question 3
-    Debug the code. It is trying to print the given pattern.
-    Pattern
-    N = 5
-    E
-    DE
-    CDE
-    BCDE
-    ABCDE
+   
+    // Question 3
+    // Debug the code. It is trying to print the given pattern.
+    // Pattern
+    // N = 5
+    // E
+    // DE
+    // CDE
+    // BCDE
+    // ABCDE
 
     int i,j,n;;
     cin>>n;
@@ -101,17 +101,17 @@ int main(){
             p++;  
         }
         cout<<endl;
-    }*/
+    }
 
 
-    /*'
-        Question 4 Debug the code. It is trying to print the given pattern.
-        Pattern
-        N = 4
-        1
-       232
-      34543
-     4567654
+
+     //    Question 4 Debug the code. It is trying to print the given pattern.
+     //    Pattern
+     //    N = 4
+     //    1
+     //   232
+     //  34543
+     // 4567654
 
 
     int no;
@@ -145,7 +145,7 @@ int main(){
         }
         cout<<"\n";
         i = i + 1;
-    }*/
+    }
    
    
     return 0;
