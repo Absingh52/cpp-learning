@@ -27,8 +27,7 @@ int main()
         cout<<endl;
     }    
     
-    /*
-    */
+    // question 3 Inverted Triangle
      for(int i=1;i<=n;i++){
         for(int j=5;j>=i;j--){
             cout<<"*";
