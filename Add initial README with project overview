@@ -21,3 +21,11 @@ if(c >= 'a' && c <= 'z') {
 } else {
     cout << -1;
 }
+// Print the Patterns Like
+-Print Square of *
+-Print Right Triangle of *
+-Print inverted Triangle 
+-Print Right-aligned Triangle 
+-Print Number Triangle
+-Print Reverse Number Triangle
+
