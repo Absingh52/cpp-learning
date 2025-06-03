@@ -7,7 +7,7 @@ using namespace std;
 int main()
 
 {    
-    int n=5;
+    int n=10;
       
    // question 1 Square of *
      
