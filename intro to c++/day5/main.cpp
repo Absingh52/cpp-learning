@@ -6,6 +6,7 @@ int main(){
  
  int n=10;
     // hollow diamond pattern
+    // this for the top part of the hollow diamond 
     for(int i=0 ;i<n;i++){
 
                 int k=0;
@@ -27,6 +28,7 @@ int main(){
                     cout<<"*";
                 }
                 cout<<endl;
+               // for the bottom of the hollow diamond 
                 if(i==n-1){
                     
                     for(int j=0;j<n-1;j++){
