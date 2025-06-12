@@ -71,25 +71,6 @@ int main(){
             }
             cout<<endl;
         }
-        // Symmetric Number Pyramid
-              for(int i=1;i<=n;i++){
-            
-           
-             for(int j =1;j<=i;j++){
-                cout<<j;
-            }
-            int k=0;
-            while(k<2*(n-i)){
-                cout<<" ";
-                k++;
-            }
-            
-            for(int j=i;j>=1;j--)
-            {
-                cout<<j;
-            }
-            
-            cout<<endl;
-    }
+        // 
         return 0;
 }
