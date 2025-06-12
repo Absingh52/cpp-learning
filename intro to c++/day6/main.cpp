@@ -52,6 +52,7 @@ int main(){
                    
         }
         cout<<endl;
+        
         // rombus pattern 
          for(int i=0;i<n;i++){
             int k=1;
@@ -64,6 +65,8 @@ int main(){
             }
             cout<<endl;
         }
+        
+        cout<<endl;
         // Number pyramid pattern
           for(int i=1;i<=n;i++){
             for(int j=1;j<=i;j++){
