@@ -74,6 +74,28 @@ int main(){
             }
             cout<<endl;
         }
-        // 
+        // Floyd’s Triangle Pattern
+         int num = 1;
+        for (int i = 1; i <= n; i++) {
+            for (int j = 1; j <= i; j++) {
+                cout << num << " ";
+                num++;
+            }
+            cout << endl;
+        }
+        // Alphabet Triangle Pattern
+          for(int i=1 ;i<=n;i++){
+            for(char j=65;j<65+i;j++ ){
+                cout<<j;
+            }
+            cout<<endl;
+        }
+        // Inverted Alphabet Triangle Pattern
+        for(int i=1 ;i<=n;i++){
+            for(char j=65;j<66+n-i;j++ ){
+                cout<<j;
+            }
+            cout<<endl;
+        }
         return 0;
 }
