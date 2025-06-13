@@ -1,0 +1,219 @@
+#  Pattern Printing README
+
+This README provides C++ logic for commonly asked pattern printing problems. Each pattern is shown with:
+
+* Traditional (detailed/long) logic
+* Clean & efficient (shorter) logic
+
+---
+
+## 🔳 Solid Square Pattern
+
+### Traditional:
+
+```cpp
+for(int i = 0; i < n; i++) {
+    for(int j = 0; j < n; j++) {
+        cout << "* ";
+    }
+    cout << endl;
+}
+```
+
+### Clean:
+
+```cpp
+for(int i = 0; i < n; i++)
+    cout << string(n, '*') << endl;
+```
+
+---
+
+## ⬜ Hollow Square Pattern
+
+### Traditional:
+
+```cpp
+for(int i = 0; i < n; i++) {
+    for(int j = 0; j < n; j++) {
+        if(i == 0 || i == n-1 || j == 0 || j == n-1)
+            cout << "* ";
+        else
+            cout << "  ";
+    }
+    cout << endl;
+}
+```
+
+### Clean:
+
+```cpp
+for(int i = 0; i < n; i++) {
+    if(i == 0 || i == n-1)
+        cout << string(n, '*') << endl;
+    else
+        cout << "*" << string(n-2, ' ') << "*" << endl;
+}
+```
+
+---
+
+## 🟥 Solid Rectangle Pattern
+
+### Traditional:
+
+```cpp
+for(int i = 0; i < rows; i++) {
+    for(int j = 0; j < cols; j++) {
+        cout << "* ";
+    }
+    cout << endl;
+}
+```
+
+### Clean:
+
+```cpp
+for(int i = 0; i < rows; i++)
+    cout << string(cols, '*') << endl;
+```
+
+---
+
+## ⬜ Hollow Rectangle Pattern
+
+### Traditional:
+
+```cpp
+for(int i = 0; i < rows; i++) {
+    for(int j = 0; j < cols; j++) {
+        if(i == 0 || i == rows-1 || j == 0 || j == cols-1)
+            cout << "* ";
+        else
+            cout << "  ";
+    }
+    cout << endl;
+}
+```
+
+### Clean:
+
+```cpp
+for(int i = 0; i < rows; i++) {
+    if(i == 0 || i == rows-1)
+        cout << string(cols, '*') << endl;
+    else
+        cout << "*" << string(cols - 2, ' ') << "*" << endl;
+}
+```
+
+---
+
+## 🔺 Right-Angle Triangle Pattern
+
+### Traditional:
+
+```cpp
+for(int i = 1; i <= n; i++) {
+    for(int j = 1; j <= i; j++) {
+        cout << "* ";
+    }
+    cout << endl;
+}
+```
+
+### Clean:
+
+```cpp
+for(int i = 1; i <= n; i++)
+    cout << string(i, '*') << endl;
+```
+
+---
+
+## 🔻 Inverted Right-Angle Triangle
+
+### Traditional:
+
+```cpp
+for(int i = n; i >= 1; i--) {
+    for(int j = 1; j <= i; j++) {
+        cout << "* ";
+    }
+    cout << endl;
+}
+```
+
+### Clean:
+
+```cpp
+for(int i = n; i >= 1; i--)
+    cout << string(i, '*') << endl;
+```
+
+---
+
+## ⬛ Hollow Right-Angle Triangle
+
+### Traditional:
+
+```cpp
+for(int i = 1; i <= n; i++) {
+    for(int j = 1; j <= i; j++) {
+        if(j == 1 || j == i || i == n)
+            cout << "* ";
+        else
+            cout << "  ";
+    }
+    cout << endl;
+}
+```
+
+### Clean:
+
+```cpp
+for(int i = 1; i <= n; i++) {
+    for(int j = 1; j <= i; j++)
+        cout << ((j == 1 || j == i || i == n) ? "* " : "  ");
+    cout << endl;
+}
+```
+
+---
+
+## 🔺 Solid Pyramid
+
+### Traditional:
+
+```cpp
+for(int i = 0; i < n; i++) {
+    for(int j = 0; j < n-i-1; j++) cout << " ";
+    for(int k = 0; k < 2*i+1; k++) cout << "*";
+    cout << endl;
+}
+```
+
+### Clean:
+
+```cpp
+for(int i = 0; i < n; i++)
+    cout << string(n-i-1, ' ') + string(2*i+1, '*') << endl;
+```
+
+---
+
+*Work in progress... More patterns will be added including:*
+
+* Inverted & Hollow Pyramids
+* Diamond & Hollow Diamond
+* Butterfly
+* Rhombus
+* Number-based patterns
+* Alphabet patterns
+* Pascal, Floyd, Zig-Zag, Hourglass
+
+---
+
+✅ Stay tuned for the completed version.
+
+Let me know if you'd like the full version exported to a downloadable `.md` file when it's done!
