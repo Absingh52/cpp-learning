@@ -1,0 +1,40 @@
+# 📁 Day 8 - C++ Number-Based Programs
+
+This folder contains essential beginner-to-intermediate level C++ programs that help build a strong foundation in number theory and logic building.
+
+---
+
+## ✅ Programs Included with Math Tips
+
+| Program                             | Description + Tips                                                                 |
+|-------------------------------------|-------------------------------------------------------------------------------------|
+| ✅ **Smallest Digit**               | Find the smallest digit in a number.<br>🧠 *Use `num % 10` to extract digits.*     |
+| ✅ **Even or Odd**                 | Check if a number is even using `num % 2 == 0`. Simple modulus concept.            |
+| ✅ **Reverse a Number**            | Multiply the reverse by 10 and add the last digit. 📘 *Build number from end.*     |
+| ✅ **Palindrome Number**           | Compare original and reversed number.<br>💡 *Use the same reverse logic.*          |
+| 🔢 **Positive or Negative**        | Use condition: `if (num >= 0)`.<br>📌 *Remember: zero is non-negative.*            |
+| 🔍 **Check Prime**                 | Loop from 2 to √n and check if `n % i == 0`.<br>🔢 *Skip even numbers after 2.*    |
+| 🧮 **Factorial of a Number**       | Use a loop multiplying up to `n`.<br>⚠️ *Beware of integer overflow on large `n`.* |
+| ⚙️ **2's Complement**             | Flip the bits with `~`, then add 1.<br>💡 *Understand bitwise logic.*              |
+| 🔄 **LCM of Two Numbers**          | Use formula: `LCM(a, b) = (a * b) / GCD(a, b)`                                     |
+| 🔁 **GCD of Two Numbers**          | Use Euclidean Algorithm: `GCD(a, b) = GCD(b, a % b)`                               |
+| 🔍 **Check Armstrong Number**      | Sum of each digit raised to number of digits = original number.                   |
+| 🔢 **Count Divisors**             | Loop from 1 to √n. For each `i` where `n % i == 0`, count both `i` and `n/i`.      |
+| 🧭 **KM to Miles Converter**       | Use formula: `miles = km * 0.621371`                                               |
+
+---
+
+## 🧠 Math & Coding Tips
+
+- **Modulus `%`** is your best friend for digit-based problems.
+- **Always store the original number** when modifying it (for palindrome, Armstrong, etc.).
+- **Optimize loops** using `sqrt(n)` for checking primes and counting divisors.
+- **Bitwise Operators** like `~`, `&`, `|`, `^`, `<<`, `>>` are powerful in binary-related problems.
+
+---
+
+## 💻 How to Compile and Run
+
+```bash
+g++ filename.cpp -o output
+./output
