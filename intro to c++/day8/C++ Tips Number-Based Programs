@@ -1,4 +1,4 @@
-# 📁 Day 8 - C++ Number-Based Programs
+# 📁  C++ Number-Based Programs
 
 This folder contains essential beginner-to-intermediate level C++ programs that help build a strong foundation in number theory and logic building.
 
@@ -33,8 +33,3 @@ This folder contains essential beginner-to-intermediate level C++ programs that 
 
 ---
 
-## 💻 How to Compile and Run
-
-```bash
-g++ filename.cpp -o output
-./output
