@@ -14,5 +14,6 @@ int main()
             b=a%b;
             a=temp;
         }
-        cout<<a;
-} // namespace std;
+        cout<<"Gcd of "<<a<<"and"<<b<<"is"<<a;
+    return 0;
+} 
