@@ -7,5 +7,5 @@ int main()
         cin>> num;
       int result =~num+1;
         cout<< "the 2's Complement is:"<<result;
-} // namespace std;
-
+ return 0;
+} 
