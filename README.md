@@ -3,3 +3,4 @@
 <div>
   -> i have also added readme file related to tips and tricks of solving patterns 
 </div>
+
