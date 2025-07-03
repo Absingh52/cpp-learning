@@ -1,6 +1,6 @@
 #include<iostream>
 #include<vector>
-
+//biotinic problem array increase in order and decrease at specific peak value 
 using namespace std;
 int findPeakElement(vector<int>&arr){
     vector<int>num=arr;
