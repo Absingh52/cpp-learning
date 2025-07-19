@@ -1,7 +1,7 @@
 #include <iostream>
 #include <vector>
 using namespace std;
-
+// two pointer method
 void reverseArray(vector<int>& arr) {
     int i = 0;
     int j = arr.size() - 1;
