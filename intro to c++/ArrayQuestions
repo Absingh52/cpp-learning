@@ -1,1 +1,11 @@
+| Day | Problem Name                       | Description                                                 | Time Complexity | Space Complexity |
+| --- | ---------------------------------- | ----------------------------------------------------------- | --------------- | ---------------- |
+| 1  | Find Unique Element                | Find the element that appears only once using XOR           | O(n)            | O(1)             |
+| 14  | Two Sum & Three Sum                | Find two/three numbers that sum up to a target              | O(n²)           | O(n)             |
+| 15  | Shift Array by One                 | Shift all elements to the right by one                      | O(n)            | O(n)             |
+| 16  | Rotate Array by K Positions        | Rotate array to the right by k positions using reverse      | O(n)            | O(1)             |
+| 17  | Find First Unsorted Index          | Find first index where the array is not sorted              | O(n)            | O(1)             |
+| 17  | Print Extreme Elements Alternately | Print smallest, largest, second smallest, second largest... | O(n log n)      | O(n)             |
+| 18  | Transpose of Matrix                | Transpose a matrix by swapping rows with columns            | O(n × m)        | O(n × m)         |
+| 18  | Rotate Matrix 90° Clockwise        | Reverse rows then transpose the matrix                      | O(n²)           | O(1)             |
 
