@@ -9,3 +9,143 @@
 | 7  | Transpose of Matrix                | Transpose a matrix by swapping rows with columns            | O(n × m)        | O(n × m)         |
 | 8  | Rotate Matrix 90° Clockwise        | Reverse rows then transpose the matrix                      | O(n²)           | O(1)             |
 
+ Q1: Find Unique Element Using XOR
+Problem:
+Given an array where every element appears twice except one, find that one unique element.
+
+Why It’s Useful:
+This is a classic use of XOR. Very efficient and often asked in coding interviews.
+
+Approach:
+
+XOR all elements. Duplicate values cancel each other out (x ^ x = 0).
+
+The remaining value is the unique element.
+
+Time Complexity: O(n)
+Space Complexity: O(1)
+
+🔹 Q2: Two Sum
+Problem:
+Find two numbers that add up to a target.
+
+Approach:
+
+Use a hashmap to store numbers and their indices.
+
+For each element, check if target - current exists in map.
+
+Time Complexity: O(n)
+Space Complexity: O(n)
+
+🔹 Q3: Three Sum
+Problem:
+Find all triplets in the array that sum to zero.
+
+Approach:
+
+Sort the array.
+
+Fix one element and use two pointers to find valid pairs.
+
+Time Complexity: O(n²)
+Space Complexity: O(1) or O(n) (if storing results)
+
+🔹 Q4: Shift Array by One
+Problem:
+Shift all elements of an array one step to the right.
+
+Brute Force Approach:
+
+Use a temp variable and shift manually.
+
+Optimized Approach:
+
+Use reverse() method:
+
+Reverse entire array
+
+Reverse from index 1 to end
+
+Time Complexity: O(n)
+Space Complexity: O(n) (Brute), O(1) (Optimized)
+
+🔹 Q5: Rotate Array by K Positions
+Problem:
+Rotate array to the right by k positions.
+
+Approach:
+
+Use three reversals:
+
+Reverse full array
+
+Reverse first k elements
+
+Reverse last n - k elements
+
+Time Complexity: O(n)
+Space Complexity: O(1)
+
+🔹 Q6: Find First Unsorted Index
+Problem:
+Return the first index where the array is not sorted.
+
+Approach:
+
+Traverse and compare each element with the next.
+
+Return the first index where arr[i] > arr[i+1].
+
+Time Complexity: O(n)
+Space Complexity: O(1)
+
+🔹 Q7: Print Extreme Elements Alternately
+Problem:
+Print elements in this pattern: smallest, largest, 2nd smallest, 2nd largest, etc.
+
+Approach:
+
+Sort the array.
+
+Use two pointers (i, j) from both ends to fill a new array.
+
+Time Complexity: O(n log n)
+Space Complexity: O(n)
+
+🔹 Q8: Transpose of a Matrix
+Problem:
+Convert rows into columns and vice versa.
+
+Approach:
+
+Use nested loops to assign transpose[j][i] = original[i][j].
+
+Time Complexity: O(n × m)
+Space Complexity: O(n × m)
+
+🔹 Q9: Rotate Matrix 90° Clockwise
+Problem:
+Rotate square matrix 90 degrees clockwise.
+
+Approach:
+
+First reverse the rows (top to bottom).
+
+Then transpose the matrix (swap matrix[i][j] with matrix[j][i]).
+
+Time Complexity: O(n²)
+Space Complexity: O(1) (in-place)
+
+🔹 Q10: Transpose + Rotate Matrix Combined
+Problem:
+Combination of matrix transpose and 90° rotation.
+
+Approach:
+
+Reverse the matrix vertically.
+
+Then apply transpose.
+
+Time Complexity: O(n²)
+Space Complexity: O(1)
