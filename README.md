@@ -104,11 +104,11 @@ I've included a separate `README_Tips.md` file that contains:
 
 ## 🔗 Connect with Me
 
-- 👨‍💻 [LinkedIn](https://www.linkedin.com/in/vivek-patial-739780278/)
+- 👨‍💻 [LinkedIn](https://www.linkedin.com/in/abhishek-singh-312629323/)
 - 🧠 Always open to feedback, contributions, and discussion!
 
 ---
 
 **Let’s master DSA with consistency and code clarity.**  
 Happy Coding 🚀  
-— Vivek Patial
+— Abhishek Singh
