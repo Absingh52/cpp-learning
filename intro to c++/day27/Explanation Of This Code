@@ -1,0 +1,9 @@
+Summary:
+This algorithm finds all duplicate numbers in an array in O(n) time and O(1) extra space by using the negative marking technique.
+It iterates through the array, using each number’s absolute value as an index reference.
+
+If the value at that index is already negative, the number is a duplicate and added to the result.
+
+Otherwise, it marks that index as visited by making the number at that position negative.
+
+The method works in-place without extra storage because the input array’s values are guaranteed to be within the range [1, n].
